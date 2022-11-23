@@ -70,9 +70,9 @@ header .social-nav {
   background-color: #0078d4;
 }
 
-.social-nav .sn-website{
-  background: url('./images/globe.svg') no-repeat 50% 50%;
-  background-color: #77A8B1;
+.social-nav .sn-github{
+  background: url('./images/iconmonstr-github-1.svg') no-repeat 50% 50%;
+  background-color:#000000;
 }
 
 section.about {
