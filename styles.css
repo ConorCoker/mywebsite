@@ -110,19 +110,25 @@ ul {
 
 .project {
   display: block;
-  width: 446px;
   margin-bottom: 20px;
-  height: 360px;
   position: relative;
   background-position: center;
 }
 
 .projects .sn-event-promotion{
   background: url("images/My project (1).png") no-repeat center;
+  width: 486px;
+  height: 348px;
+}
+
+.projects .sn-hungry-tiger{
+  background: url("images/My project.jpg") no-repeat center;
+  width: 162px;
+  height: 360px;
 }
 
 .project h5 {
-  display: block;
+  display: block; 
   background: rgba(0, 0, 0, 0.8);
   padding: 0.8em;
   position: absolute;
@@ -132,4 +138,8 @@ ul {
   font-size: 1em;
   font-weight: normal;
   bottom: 0;
+}
+
+.projects h1{
+  margin-bottom: 80px;
 }
