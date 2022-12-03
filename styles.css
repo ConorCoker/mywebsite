@@ -108,25 +108,45 @@ ul {
   text-align: left;
 }
 
+
 .project {
   display: block;
-  width: 486px;
-  background: url("images/My project (1).png");
   margin-bottom: 20px;
-  height: 400px;
   position: relative;
   background-position: center;
+  width: 386px;
+  height: 400px;
 }
 
-.project h5 {
+.projects .sn-event-promotion{
+  background: url("images/My project (1).png") no-repeat center;
+  background-size: contain;
+  height: 348px;
+  width: 486px;
+}
+
+.projects .sn-hungry-tiger{
+  background: url("images/Screenshot_2022-12-03-13-07-01-60_098b036993d3e3f558541f98c3138ffe (1).jpg") no-repeat center;
+  background-size: contain;
+  height: 386px;
+  width: 400px;
+}
+
+.projects h5 {
   display: block;
   background: rgba(0, 0, 0, 0.8);
   padding: 0.8em;
-  position: absolute;
   width: 100%;
   color: white;
   text-align: center;
   font-size: 1em;
   font-weight: normal;
-  bottom: 0;
+  top: 90%;
+  position: absolute;
 }
+
+
+.projects h1{
+  margin: 40px;
+}
+
