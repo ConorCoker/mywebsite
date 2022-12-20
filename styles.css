@@ -1,152 +1,165 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: aliceblue;
 }
 
 html, body {
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #200589
 }
 
 main {
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header {
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  background-color: green;
-  height: 275px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background: url("images/header.jpg");
+    height: 275px;
 }
 
 header h2 {
-  color: white;
-  font-size: 3em;
-  font-weight: normal;
+    font-size: 3em;
+    font-weight: normal;
 }
 
 header .social-nav {
-  position: absolute;
-  bottom: -30px;
+    position: absolute;
+    bottom: -30px;
 }
 
 .social-nav ul {
-  list-style-type: none;
-  margin: 0;
+    list-style-type: none;
+    margin: 0;
 }
 
 .social-nav ul li {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  margin-right: 1em;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-right: 1em;
 }
 
 .social-nav ul li:last-child {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .social-nav ul li a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  border-radius: 100%;
-  background-color: blue;
-  border: 4px solid white;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-color: blue;
+    border: 4px solid red;
 }
 
 .social-nav .sn-twitter {
-  background: url('./images/twitter.svg') no-repeat 50% 50%;
-  background-color: #1DA1F2;
+    background: #1DA1F2 url('./images/twitter.svg') no-repeat 50% 50%;
 }
 
 .social-nav .sn-linkedin {
-  background: url('./images/icons8-linkedin-circled.svg') no-repeat 50% 50%;
-  background-color: #0078d4;
+    background: #0078d4 url('./images/icons8-linkedin-circled.svg') no-repeat 50% 50%;
 }
 
-.social-nav .sn-github{
-  background: url('./images/iconmonstr-github-1.svg') no-repeat 50% 50%;
-  background-color:#000000;
+.social-nav .sn-github {
+    background: #000000 url('./images/iconmonstr-github-1.svg') no-repeat 50% 50%;
 }
 
 section.about {
-  padding: 4em 2em 2em 2em;
+    padding: 4em 2em 2em 2em;
 }
 
 section.about p {
-  text-align: center;
+    text-align: center;
 }
 
 .projects {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .projects h1 {
-  width: 100%;
-  flex-basis: 100%;
-  text-align: center;
-  margin: 1em;
+    width: 100%;
+    flex-basis: 100%;
+    text-align: center;
+    margin: 1em;
 }
 
-.skills{
-  text-align: center;
-  list-style-position: inside;
+.skills {
+    text-align: center;
+    list-style-position: inside;
 
 }
+
 
 ul {
-  display: inline-block;
-  padding-left: 0;
-  text-align: left;
+    display: inline-block;
+    padding-left: 0;
+    text-align: left;
 }
 
 
 .project {
-  display: block;
-  margin-bottom: 20px;
-  position: relative;
-  background-position: center;
-  width: 386px;
-  height: 400px;
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+    background-position: center;
+    width: 386px;
+    height: 400px;
 }
 
-.projects .sn-event-promotion{
-  background: url("images/My project (1).png") no-repeat center;
-  background-size: contain;
-  height: 348px;
-  width: 486px;
+.projects .sn-event-promotion {
+    background: url("images/Screenshot 2022-12-15 201327.png") no-repeat center;
+    background-size: contain;
+    height: 348px;
+    width: 486px;
 }
 
-.projects .sn-hungry-tiger{
-  background: url("images/Screenshot_2022-12-03-13-07-01-60_098b036993d3e3f558541f98c3138ffe (1).jpg") no-repeat center;
-  background-size: contain;
-  height: 386px;
-  width: 400px;
+.projects .sn-hungry-tiger {
+    background: url("images/Screenshot_2022-12-03-13-07-01-60_098b036993d3e3f558541f98c3138ffe (1).jpg") no-repeat center;
+    background-size: contain;
+    height: 386px;
+    width: 400px;
+}
+
+.projects .sn-bmi-calculator {
+    background: url("images/Screenshot_2022-12-15-19-28-38-81_f3fb99b295b402b8e146a05c7e9d47f5.jpg") no-repeat center;
+    background-size: contain;
+}
+
+.projects .sn-android-projects-app {
+    background: url("images/Screenshot_2022-12-15-20-07-32-83_ba31a0db0d8b09b6f08c0c5be6635dcd.jpg") no-repeat center;
+    background-size: contain;
+}
+
+.projects .sn-self-promo-app {
+    background: url("images/imgonline-com-ua-twotoone-f3hGyB5agyvvTdj.jpg");
+    background-size: contain;
 }
 
 .projects h5 {
-  display: block;
-  background: rgba(0, 0, 0, 0.8);
-  padding: 0.8em;
-  width: 100%;
-  color: white;
-  text-align: center;
-  font-size: 1em;
-  font-weight: normal;
-  top: 90%;
-  position: absolute;
+    display: block;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 0.8em;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    font-weight: normal;
+    top: 90%;
+    position: absolute;
 }
 
 
-.projects h1{
-  margin: 40px;
+.projects h1 {
+    margin: 40px;
 }
 
